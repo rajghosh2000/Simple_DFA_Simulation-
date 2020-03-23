@@ -1,4 +1,4 @@
-# Simple_DFA_Simulation-
+# Simple_DFA_Simulation
 
 CODE IS WRITTEN IN C LANGUAGE
 
