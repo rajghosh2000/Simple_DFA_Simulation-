@@ -12,4 +12,5 @@ if a string doesnot content two zeros at one go then the string belongs to the l
 CONDITIONS:
 
 Language L = {w|w does not have the substring 00}
+
 Set      Σ = {0, 1}
