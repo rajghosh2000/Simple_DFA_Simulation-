@@ -1,5 +1,7 @@
 # Simple_DFA_Simulation-
 
+CODE IS WRITTEN IN C LANGUAGE
+
 Designing a DFA for a regular language L and writing a program to simulate the DFA. The program should be 
 able to take any random string as input from the user and determine whether the string belongs to the
 language L.
