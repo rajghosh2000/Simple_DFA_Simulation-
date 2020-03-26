@@ -37,8 +37,8 @@ int main()
         int flag=0;
     while(str[i]!='\0') 
     {
-        if(str[i]=='0' && str[i+1]=='0')   //here if once 0 is found it checks if next position also contains a 0 or not if found it breaks and 
-                                        //gives the result else if 1 is found carry on  
+        if(str[i]=='0' && str[i+1]=='0')   //here if once 0 is found it checks if next position also contains a 0 or
+                                          //not if found it breaks and gives the result else if 1 is found carry on with loop 
         {
             flag=1;
             break;
