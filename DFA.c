@@ -33,15 +33,12 @@ int main()
     if(f==0)
     {
         printf("STRING IS EXCEPTED");
-    }
-    else
+
+        int flag=0;
+    while(str[i]!='\0') 
     {
-        printf("STRING IS NOT EXCEPTED");
-    }
-    int flag=0;
-    while(str[i]!='\0')
-    {
-        if(str[i]=='0' && str[i+1]=='0')
+        if(str[i]=='0' && str[i+1]=='0')   //here if once 0 is found it checks if next position also contains a 0 or not if found it breaks and 
+                                        //gives the result else if 1 is found carry on  
         {
             flag=1;
             break;
@@ -50,10 +47,16 @@ int main()
     }
     if(flag==0)
     {
-        printf("\nSTRING EXITS IN LANGUAGE L");
+        printf("\n   AND    \nSTRING EXITS IN LANGUAGE L");
     }
     else
     {
-        printf("\nSTRING DOES EXITS IN LANGUAGE L");
+        printf("\n   BUT    \nSTRING DOES EXITS IN LANGUAGE L");
     }
+    }
+    else
+    {
+        printf("STRING IS NOT EXCEPTED SO IT CANNOT BE A PART OF LANGUAGE L");
+    }
+    
 }   
